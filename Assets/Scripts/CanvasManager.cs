@@ -39,7 +39,7 @@ namespace Scripts
             }
         }
 
-        internal void TurnOffCanvases(Canvas gameCanvas, Canvas endScreenCanvas,
+        internal static void TurnOffCanvases(Canvas gameCanvas, Canvas endScreenCanvas,
             Canvas startScreenCanvas, Canvas gameMenuCanvas, Canvas settingsCanvas,
             Canvas gameDifficultyCanvas)
         {

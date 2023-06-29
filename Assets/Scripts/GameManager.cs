@@ -59,7 +59,7 @@ namespace Scripts
 
             StopTime();
 
-            _canvasManager.TurnOffCanvases(gameCanvas, endScreenCanvas,startScreenCanvas,
+            CanvasManager.TurnOffCanvases(gameCanvas, endScreenCanvas,startScreenCanvas,
                 gameMenuCanvas, settingsCanvas, gameDifficultyCanvas);
             CanvasManager.StartGameCanvases(startScreenCanvas, gameCanvas,
                 endScreenCanvas, gameMenuCanvas, settingsCanvas, gameDifficultyCanvas);
